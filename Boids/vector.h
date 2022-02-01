@@ -9,6 +9,10 @@ struct Vec2
 	Vec2(const double ix, const double iy)
 		:x(ix), y(iy) {}
 
+	double distance(const Vec2& coord)const {
+		return ((x - coord.x) * (x - coord.x) + (y - coord.y) * (y - coord.y));
+	}
+
 	double magnitude()const {
 		return (x * x + y * y );
 	}
@@ -18,6 +22,9 @@ struct Vec2
 	}
 	Vec2 operator-(const Vec2& coord)const {
 		return Vec2(x - coord.x, y - coord.y);
+	}
+	Vec2 operator*(const double n)const {
+		return Vec2(x * n, y * n);
 	}
 	Vec2 operator/(const double n)const {
 		return Vec2(x / n, y / n);

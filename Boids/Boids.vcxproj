@@ -152,11 +152,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="boids.cpp" />
+    <ClCompile Include="draw.cpp" />
     <ClCompile Include="init.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="boids.h" />
+    <ClInclude Include="configuration.h" />
+    <ClInclude Include="draw.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="vector.h" />
