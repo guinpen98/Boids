@@ -1,5 +1,6 @@
 # Boids
 ## overview
+This is a simulation of the boids flocking algorithm
 ![capture](https://github.com/guinpen98/Boids/blob/master/picture/capture.gif?raw=true)
 ## usage
 It uses an external library called the [DxLib](https://dxlib.xsrv.jp/).
